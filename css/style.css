@@ -55,3 +55,87 @@
 .textButton button:hover{
     background-color: #24232388;
 }
+body{
+    background:#f0f1f1 ;
+}
+.contentContainer{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.contentContainer h1{
+    font-size: 42px;
+}
+.menuItem{
+    width: 35%;
+    height: 100px;
+    padding: 0 40px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid #969494dd;
+    position: relative;
+    transition: all 0.3s;
+}
+.menuItem i{
+    position: absolute;
+    right: 25px;
+}
+.menuItem i:first-child{
+    opacity: 0;
+    visibility: hidden;
+}
+.menuItem i:last-child{
+    opacity: 0;
+    visibility: hidden;
+}
+.menuItem .questionText{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 17px;
+}
+.menuItem .divClass{
+    visibility: hidden;
+    opacity: 0;
+}
+.menuItem h2{
+    font-size: 22px;
+    font-weight: bold;
+}
+.menuItem i{
+    font-size: 30px;
+    cursor: pointer;
+}
+
+
+
+/* active */
+
+.activeMenu{
+    height: 130px !important;
+    justify-content: space-around !important;
+    padding-bottom: 10px !important;
+    background-color: white !important;
+    box-shadow: 10px 10px 10px 3px rgba(0, 0, 0, 0.144);
+}
+.activeMenu .divClass{
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+.activeMenu .divClass .answerTxt{
+    font-weight: bold !important;
+}
+.activeMenu i:last-child{
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+.activeMenu .arrowDown{
+    opacity: 0 !important;
+    visibility: hidden !important;
+}
