@@ -1,0 +1,46 @@
+.contentHolder{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.leftSide img{
+    height: 600px;
+}
+.rightSide .textContent{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.rightSide .textContent .textHeading h1{
+    font-weight: bold;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.textDetails p{
+    font-size: 20px;
+    width: 600px;
+    color: #838383;
+}
+.textAddDetails p{
+    font-size: 20px;
+    width: 600px;
+    color: #838383;
+}
+.textButton button{
+    cursor: pointer;
+    padding: 12px 44px;
+    font-size: 16px;
+    background-color: #050505;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    transition: all 0.3s;
+}
+.textButton button:hover{
+    background-color: #24232388;
+}
