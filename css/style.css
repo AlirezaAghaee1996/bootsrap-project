@@ -17,3 +17,48 @@
     display: flex;
     justify-content: center;
 }
+
+.cards{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.my-card{
+    padding: 10px;
+    width: 300px;
+
+    background-color: white;
+    box-shadow: 5px 5px 5px;
+    border-radius: 10px;
+}
+
+.card-top{
+    display: flex;
+    justify-content: center;
+}
+
+.card-top > img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.card-bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.card-bottom-name{
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.card-bottom-explanation{
+    font-size: 22px;
+    font-weight: 500;
+}
