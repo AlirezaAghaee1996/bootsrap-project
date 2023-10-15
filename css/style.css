@@ -13,9 +13,10 @@
 
 .second-part{
     color: white;
-    font-size: 12px;
+    font-size: 22px;
     display: flex;
     justify-content: center;
+    margin: 0 50px;
 }
 
 .cards{
@@ -62,3 +63,27 @@
     font-size: 22px;
     font-weight: 500;
 }
+
+footer{
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    font-size: 22px;
+    position: relative;
+}
+
+.footer-right{
+    position: absolute;
+    color: white;
+    right: 20px;
+    bottom: 20px;
+}
+
+.footer-right > a{
+    font-size: 32px;
+}
+
+
