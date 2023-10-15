@@ -39,11 +39,12 @@ header{
 #btn{
     font-size: .9em;
     height: 30px;
-    
+    color: white;
+    background-color: rgb(83, 83, 83);
 }
 #sign-up{
     padding: 30px;
-    background-color: rgba(22, 22, 172, 0.575);
+    background-color: rgb(17, 17, 180);
 }
 
 
