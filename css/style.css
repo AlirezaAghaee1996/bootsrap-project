@@ -1,4 +1,5 @@
 
+
 #nav1{
     display: flex;
     justify-content: space-between;
@@ -68,3 +69,186 @@ header{
  
     
   }
+
+#instructors{
+    background-color: blue;
+    width: 100%;
+    padding: 30px 0 50px;
+}
+
+.first-part{
+    color: white;
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+}
+
+.second-part{
+    color: white;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    margin: 0 50px;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.my-card{
+    padding: 10px;
+    width: 300px;
+
+    background-color: white;
+    box-shadow: 5px 5px 5px;
+    border-radius: 10px;
+}
+
+.card-top{
+    display: flex;
+    justify-content: center;
+}
+
+.card-top > img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.card-bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.card-bottom-name{
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.card-bottom-explanation{
+    font-size: 22px;
+    font-weight: 500;
+}
+
+footer{
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    font-size: 22px;
+    position: relative;
+}
+
+.footer-right{
+    position: absolute;
+    color: white;
+    right: 20px;
+    bottom: 20px;
+}
+
+.footer-right > a{
+    font-size: 32px;
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#person {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* background-color: aqua; */
+    height: 350px;
+    width: 100vw;
+
+}
+
+.inperson {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    /* padding: 20px; */
+    height: 250px;
+    /* background-color:gray ; */
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    border-radius: 5px;
+    background-color: rgb(0, 0, 0);
+    /* color: white; */
+    padding: 10px 10px;
+    width: 400px;
+    height: 250px;
+
+
+}
+
+.cards i {
+    color: white;
+    font-size: 30px;
+
+}
+
+.cards h1 {
+    color: white;
+
+}
+
+.cards p {
+    color: white;
+    text-align: center;
+
+}
+
+.cards button {
+    color: white;
+    background-color: blue;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: all .5s;
+
+}
+
+.cards button:hover {
+    opacity: .7;
+
+
+}
+
+.cards2 {
+
+    background-color: rgb(130, 128, 128);
+}
+
+.cards2 button {
+    background-color: black;
+}
+
+.cards2 button:hover {
+    opacity: .6;
+
+}
+
