@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 
 
 #nav1{
@@ -70,6 +71,13 @@ header{
     
   }
 
+=======
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+>>>>>>> Stashed changes
 #instructors{
     background-color: blue;
     width: 100%;
@@ -159,11 +167,15 @@ footer{
 }
 
 
+<<<<<<< Updated upstream
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+=======
+
+>>>>>>> Stashed changes
 
 #person {
     display: flex;
