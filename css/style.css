@@ -1,0 +1,69 @@
+
+#nav1{
+    display: flex;
+    justify-content: space-between;
+}
+#Yellow{
+    color: yellow;
+}
+#btn-a{
+    background-color: rgba(41, 41, 160, 0.568);
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+    text-decoration: none;
+    width: 300px;
+    text-align: center;
+}
+#btn-a:hover{
+    background-color: rgba(41, 41, 160, 1);
+}
+header{
+  width: 100%;
+  height: 350px;
+}
+#poster{
+    width: 100%;
+}
+#img-content{
+    width: 50%;
+}
+#img-content img{
+    width: 100%;
+    object-fit: cover;
+}
+#input{
+    width: 200px;
+    height: 30px;
+}
+#btn{
+    font-size: .9em;
+    height: 30px;
+    
+}
+#sign-up{
+    padding: 30px;
+    background-color: rgba(22, 22, 172, 0.575);
+}
+
+
+
+@media screen and (max-width: 800px) {
+    #poster{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    #text-content{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+  }
+  @media screen and (max-width: 661px) {
+    #h3-header{
+        font-size: 1.2em;
+        text-align: center ;
+    }
+ 
+    
+  }
