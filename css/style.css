@@ -1,3 +1,94 @@
+
+#instructors{
+    background-color: blue;
+    width: 100%;
+    padding: 30px 0 50px;
+}
+
+.first-part{
+    color: white;
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+}
+
+.second-part{
+    color: white;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    margin: 0 50px;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.my-card{
+    padding: 10px;
+    width: 300px;
+
+    background-color: white;
+    box-shadow: 5px 5px 5px;
+    border-radius: 10px;
+}
+
+.card-top{
+    display: flex;
+    justify-content: center;
+}
+
+.card-top > img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.card-bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.card-bottom-name{
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.card-bottom-explanation{
+    font-size: 22px;
+    font-weight: 500;
+}
+
+footer{
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    font-size: 22px;
+    position: relative;
+}
+
+.footer-right{
+    position: absolute;
+    color: white;
+    right: 20px;
+    bottom: 20px;
+}
+
+.footer-right > a{
+    font-size: 32px;
+}
+
+
+=======
 * {
     padding: 0;
     margin: 0;
@@ -90,3 +181,4 @@
     opacity: .6;
 
 }
+
